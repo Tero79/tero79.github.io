@@ -2,33 +2,90 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>CSS: Selecting by id</title>
+        <title>CSS inheritance</title>
         <style>
-        
+        body {
+            font-size: 12px;
+        }
         h2 {
             color: rgb(0, 232, 15);
+            font-size: 1.5em;
         }  
+        
+        #Teron lomat {
+            background-color: purple;
+        }
         
         p {
             color: rgb(191, 0, 255);
+            font-family: "Helvetica", sans-serif;
         }
-            
-        </style>
-    
-    <div>
-        <h1>Teron s</h1>
-        <table>
-    </table>
-    </div>
         
+        #Matkat {
+            color: purple;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        
+        .song-lyrics {
+            background-color: yellow;
+            font-family: fantasy;
+            font-size: 13px;
+            font-style: italic;
+            line-height: 1.5em;
+            text-align: center;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        </style>
     </head>
     <body>
 
-      <h1>Teron sivut</h1>
- 
-        <h2>Basic info</h2>
-            <p>Tällä sivustolla harjoittelen ensimmäistä kertaa koodausta, eli devausta! <em>Jännittää</em> tuleeko tästä mitään!</p>
-       
-    </body>
-</html>
-
+    <h1>Teron sivut2</h1>
+    
+    <h2 id="Teron lomat">Basic info</h2>
+    
+    <p id="Teron lomat">Olen aina pitänyt matkustamisesta. Olen maatkustanut mm. trans siperian radan ja viettänyt aasiassa melkein vuoden. Matkustaminen on <em>lähellä</em> sydäntä <strong>they ja suosittelen sitä kaikille. <em>ever</em> has</strong>.</p>
+    
+    <p>Lue lisää <a href="https://www.napsu.fi/matkailu/uutiset/reissaaminen-kannattaa-kolme-syyta-miksi-matkailu-on-hyvaksi-henkiselle-hyvinvoinnille-1035">Napsu</a>.</p>
+    
+    <h2>Teron lomat</h2>
+    
+    <p class="Maita">Thaimaa, <br>
+"Mongolia <br>
+Italia<br>
+Portugal" <br>
+</p>
+    
+    <p class="Maita">Venäjä <br>
+Malesia <br>
+Idonesia <br>
+Kiina
+Saksa>
+Ja muutama muu ihana maa </p>
+    
+    <p class="Matkat">  e you 3 chances. <br>
+Then I'll turn you into a goon! <br>
+The next day…</p>
+    
+    <img src="https://www.napsu.fi/images/uutiset/1035-1-860.jpg?v=" alt="Hyppy matkailun maailmaan" width="203"> 
+    
+    <h3>Miksi matkailu kannattaa</h3>
+    
+    <ul>
+        <li>Se on super kivaa!</li>
+        <li>Uusia kokemuksia!</li>
+        <li>Näet maailman uusin silmin!</li>
+    </ul>
+    
+    <h3>Parhaimmat maat tähän mennessä</h3>
+    
+    <ol>
+        <li>Italia</li>
+        <li>Thaimaa</li>
+        <li>Kiina</li>
+    </ol>
+    
