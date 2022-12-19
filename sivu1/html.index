@@ -8,12 +8,113 @@
         body { background-color: #E6E6FA; 
             color: #191970;
                font-family: Arial, Verdana, sans-serif; }
-           
-           
-           </style>
+       
+            h1 { background-color: #191970;
+            color: #E6E6FA;
+            line-height: 200%;
+            font-family: Georgia, "Times New Roman", serif; }
+        
+            h2 { background-color: #AEAED4;
+                color: #191970; text-align: center;
+                font-family: Georgia, "Times New Roman", serif; }
+                    p {font-size: .90em; text-indent: 3em; }
+                    ul {font-weight: bold; }
+                    #container { margin-left: auto;
+                        margin-right: auto;
+                        width:80%; }
+                        .redcol { 
+                        color: #ff0000; }
+            
+            h3 { color: #191970; text-align: center;
+                font-family: Georgia, "Times New Roman", serif; }
+            
+       nav ul { list-style-type: none;} 
+            nav a { text-decoration: none;  
+               padding-right: 100px; } 
+            nav li {  display: inline; }
+ 
+        
+        p { color: black;
+            text-align: center;
+            font-family: "Helvetica", sans-serif;
+            font-size: 20px; 
+            padding:  20px 30px 0 30px; }
+        
+        ol { color: purple;
+            text-align: center;
+            font-weight: bold;
+            text-decoration: underline; }
+        
+        img { class= "center"; 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%; }
+       
+         ul { text-align: center; }
+     
+        </style>
     </head>
     <body>
 
-<img src="https://www.napsu.fi/images/uutiset/1035-1-860.jpg?v=" alt="Hyppy matkailun maailmaan" width="203" ; class= "center" ; > 
-
-</html>
+    <h1>TERON SIVUT! </h1>
+    
+    <h2>Teron lomat maailmalla! </h2>
+    
+    <h3> Olen aina pitänyt matkustamisesta. Olen matkustanut mm. Trans siperian radan venäjän läpi mongoliaan ja viettänyt aasiassa melkein vuoden. Matkustaminen on <em>lähellä</em> sydäntä <strong>ja suosittelen sitä kaikille. </strong>.</h3>
+       
+        
+    <p>Lue lisää <a href="https://www.napsu.fi/matkailu/uutiset/reissaaminen-kannattaa-kolme-syyta-miksi-matkailu-on-hyvaksi-henkiselle-hyvinvoinnille-1035">Matkailu tekee hyvää...Napsu</a>.</p>
+    
+    <h2>Teron loma kohteet</h2>
+             
+        
+    <p class="Maita">
+        
+     -------------- <br>
+        Mongolia <br>
+        Italia<br>
+        Portugali <br>
+        Venäjä <br>
+        Malesia <br>
+        Idonesia <br>
+        Kiina <br>
+        Saksa <br>
+        Thaimaa <br>
+        Ja muutama muu ihana maa </p>
+    
+    <p class="Matkat">
+    ------------- <br>
+        Iloa elämään <br>
+        Hyppy tuntemattomaan <br>
+        Matkailu avartaa</p>
+    
+    <img src="https://www.napsu.fi/images/uutiset/1035-1-860.jpg?v=" alt="Hyppy matkailun maailmaan" width="203" ; class= "center" ; > 
+    
+    <h3>Miksi matkailu kannattaa</h3>
+    
+    <ul>
+        <li>Se on super kivaa!</li>
+        <li>Uusia kokemuksia!</li>
+        <li>Näet maailman uusin silmin!</li>
+    </ul>
+    
+    <h3>  Parhaimmat maat tähän mennessä</h3>
+    
+    <ol>
+        <li>Italia</li>
+        <li>Thaimaa</li>
+        <li>Kiina</li>
+        <li>Portugali</li>
+    </ol>
+   
+     <p> Klikkaa alta yhtä suosikkimaistani ja tutustu!</p>   
+          
+      <nav> 
+            <ul> 
+                <li><a href="index.html">Italia</a></li> 
+                <li><a href="menu.html">Thaimaa</a></li> 
+                <li><a href="directions.html">Kiina</a></li> 
+                 <li><a href="contact.html">Portugali</a></li> 
+            </ul> 
+    </nav> 
